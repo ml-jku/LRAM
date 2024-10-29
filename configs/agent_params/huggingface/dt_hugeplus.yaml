@@ -1,0 +1,12 @@
+# 408M parameters
+max_length: 20
+n_embd: 512
+n_layer: 14
+n_head: 24
+max_ep_len: 1000
+hidden_size: 1536
+output_attentions: True
+
+resid_pdrop: 0 
+embd_pdrop: 0 
+attn_pdrop: 0

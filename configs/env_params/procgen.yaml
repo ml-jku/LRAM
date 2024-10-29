@@ -1,0 +1,20 @@
+envid: "procgen12"
+reward_scale: 1
+target_return: 1
+num_envs: 1
+norm_obs: False
+norm_reward: False
+record: False
+record_freq: 1000000
+record_length: 2000
+eval_env_names: procgen4
+distribution_mode: "easy"
+train_eval_seeds: True
+time_limit: 400
+env_kwargs: 
+  # data was generated with 0 to 199
+  num_levels: 200
+  start_level: 0
+eval_env_kwargs: 
+  num_levels: 1
+  start_level: 200

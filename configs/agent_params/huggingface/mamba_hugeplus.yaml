@@ -1,0 +1,9 @@
+# 408M
+max_length: 50
+n_embd: 512
+n_layer: 28
+n_head: 1
+max_ep_len: 1000
+d_model: 1536
+d_intermediate: 0
+output_attentions: True

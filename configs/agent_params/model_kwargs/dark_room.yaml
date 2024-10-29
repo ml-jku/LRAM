@@ -1,0 +1,6 @@
+tokenize_a: False
+reward_condition: True
+relative_pos_embds: False
+use_time_embds: False
+shared_a_head: True 
+action_condition: False

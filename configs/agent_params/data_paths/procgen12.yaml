@@ -1,0 +1,14 @@
+base: ${SSD_DATA_DIR}/procgen/processed_25M_custom
+names: 
+  - "bigfish"
+  - "bossfight"
+  - "caveflyer"
+  - "chaser"
+  - "coinrun"
+  - "dodgeball" 
+  - "fruitbot"
+  - "heist"
+  - "leaper"
+  - "maze"
+  - "miner"
+  - "starpilot"

@@ -1,0 +1,11 @@
+max_length: 20
+n_embd: 512
+n_layer: 10
+n_head: 20
+max_ep_len: 1000
+hidden_size: 1280
+output_attentions: True
+
+resid_pdrop: 0 
+embd_pdrop: 0 
+attn_pdrop: 0

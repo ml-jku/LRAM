@@ -1,0 +1,9 @@
+envid: "mimicgen83"
+reward_scale: 1
+target_return: 20000
+num_envs: 1
+norm_obs: False
+record: False
+record_freq: 250000
+record_length: 1000
+eval_env_names: "mimicgen2"

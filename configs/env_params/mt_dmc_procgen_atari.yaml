@@ -1,0 +1,45 @@
+# envid: mt45v2_dmc11_pg12_atari41
+envid: bigfish
+target_return: 1
+num_envs: 1
+norm_obs: False
+record: False
+record_freq: 1000000
+record_length: 2000
+
+# Meta-world specific 
+randomization: random_init_all
+remove_task_ids: True
+add_task_ids: False
+
+# procgen specific
+distribution_mode: "easy"
+# time_limit: 400
+env_kwargs: 
+  # data was generated with 0 to 199
+  num_levels: 200
+  start_level: 0
+eval_env_kwargs: 
+  num_levels: 200
+  start_level: 0
+
+# DMC specific 
+dmc_env_kwargs: 
+  flatten_obs: False
+
+# atari specific
+atari_env_kwargs: 
+  full_action_space: True 
+wrapper_kwargs: 
+  to_rgb: True
+  screen_size: 64
+
+# multi domain evaluation
+# eval_env_names: "mt5v2_dmc5_pg4_atari5"
+eval_env_names: "mt45v2_dmc11_pg12_atari41"
+
+reward_scale:
+  mt50: 200
+  dmcontrol: 100
+  procgen: 1
+  atari: 20

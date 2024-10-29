@@ -1,0 +1,13 @@
+base: ${SSD_DATA_DIR}/dmc
+names: 
+  - finger_turn_easy
+  - fish_upright
+  - hopper_stand
+  - point_mass_easy
+  - walker_stand
+  - walker_run
+  - ball_in_cup_catch
+  - cartpole_swingup
+  - cheetah_run
+  - finger_spin
+  - reacher_easy

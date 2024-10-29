@@ -1,0 +1,7 @@
+use_eval_callback: True
+n_eval_episodes: 40
+eval_freq: 25000
+max_no_improvement_evals: 0
+deterministic: False
+log_eval_trj: True
+eval_on_train: True

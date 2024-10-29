@@ -1,0 +1,28 @@
+# 408M
+max_ep_len: 1000
+max_length: 50
+n_layer: 28
+hidden_size: 1536
+n_head: 4
+
+xlstm_config:
+  mlstm_block:
+    mlstm:
+      conv1d_kernel_size: 4
+      qkv_proj_blocksize: 4
+      num_heads: ${agent_params.huggingface.n_head}
+  slstm_block:
+    slstm:
+      backend: cuda
+      num_heads: ${agent_params.huggingface.n_head}
+      conv1d_kernel_size: 4
+      bias_init: powerlaw_blockdependent
+    feedforward:
+      proj_factor: 1.3
+      act_fn: gelu
+  # context length needs to be set to 3 times the max_length --> s/a/r/rtg tokens. 
+  # context_length: ${multiply:${agent_params.huggingface.max_length},4}
+  context_length: 150
+  num_blocks: ${agent_params.huggingface.n_layer}
+  embedding_dim: ${agent_params.huggingface.hidden_size}
+  # slstm_at: [1]

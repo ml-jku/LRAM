@@ -1,5 +1,5 @@
 # A Large Recurrent Action Model: xLSTM enables Fast Inference for Robotics Tasks
-[![arXiv](https://img.shields.io/badge/arXiv-TODO-b31b1b.svg)](https://arxiv.org/abs/TODO)
+[![arXiv](https://img.shields.io/badge/arXiv-2410.22391-b31b1b.svg)](https://arxiv.org/abs/2410.22391)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Thomas Schmied<sup>**1**</sup>, Thomas Adler<sup>**1**</sup>, Vihang Patil<sup>**1**</sup>, Maximilian Beck<sup>**1**, **2**</sup>, Korbinian Pöppel<sup>**1**, **2**</sup>, Johannes Brandstetter<sup>**1**, **2**</sup>, Günter Klambauer<sup>**1,2**</sup>, Razvan Pascanu<sup>**3,4**</sup>, Sepp Hochreiter<sup>**1,2**</sup> 
@@ -8,7 +8,7 @@ Thomas Schmied<sup>**1**</sup>, Thomas Adler<sup>**1**</sup>, Vihang Patil<sup>*
 <sup>**2**</sup>NXAI, <sup>**3**</sup>Google DeepMind, <sup>**4**</sup>UCL
 
 This repository contains the source code for **" A Large Recurrent Action Model: xLSTM enables Fast Inference for Robotics Tasks"**.
-The paper is available on [ArXiv](TODO). 
+The paper is available on [ArXiv](https://arxiv.org/abs/2410.22391). 
 
 ![large Recurrent Action Model](./figures/lram.png) 
 
@@ -248,6 +248,6 @@ If you find this useful, please consider citing our work:
   author={Schmied, Thomas and Adler, Thomas and Patil, Vihang and Beck, Maximilian and Pöppel, Korbinian and Brandstetter, Johannes and Klambauer, Günter and Pascanu, Razvan and Hochreiter, Sepp},
   journal={ArXiv},
   year={2024},
-  url={https://arxiv.org/abs/TODO}
+  url={https://arxiv.org/abs/2410.22391}
 }
 ```
